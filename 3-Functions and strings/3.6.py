@@ -1,0 +1,1 @@
+#program to understand how characters in string are accesed using negative indexes 
