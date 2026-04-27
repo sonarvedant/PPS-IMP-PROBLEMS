@@ -1,6 +1,5 @@
 #to calculate sum of n natural numbers and finding out the average of it using while loop
-# n = int(input("enter value of n : "))
-n = 5
+n = int(input("enter value of n : "))
 sum = 0 
 avg = 0.0
 i = 1
