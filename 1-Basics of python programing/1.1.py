@@ -1,6 +1,6 @@
 #Program to display different data type and constants
 #String
-name = "John Doe"
+name = "John snow"
 print("name is : ",name)
 print("type of name is : ",type(name))
 #Integer
