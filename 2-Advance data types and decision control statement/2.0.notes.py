@@ -31,7 +31,10 @@ syntax: while condition:
                 updation 
 
 2] for loop 
-syntax: 
+syntax: for var in sequence:
+            body
+
+            
 
 
 
