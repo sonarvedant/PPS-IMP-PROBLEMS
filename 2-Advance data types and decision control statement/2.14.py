@@ -7,4 +7,5 @@ while i <= n :
         print(j, "is even ")
     else:
         print(j, "is odd")
-        
+    i = i+1
+    j = i
