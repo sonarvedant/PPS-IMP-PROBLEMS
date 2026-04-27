@@ -34,11 +34,8 @@ syntax: while condition:
 syntax: for var in sequence:
             body
 
-            
-
-
-
-
+Range function 
+syntax: range(start, stop, step)
 
 
 
