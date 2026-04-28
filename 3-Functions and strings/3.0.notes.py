@@ -16,4 +16,21 @@ function can be called by using the function name followed by parentheses.
 Variable Scope:- the region of the program where a variable is defined and can be accessed is called variable scope.
 1] local variable - a variable that is defined inside a function and can only be accessed within that function.
 2] global variable - a variable that is defined outside a function and can be accessed from anywhere in the program.
+
+return statement - a return statement is used to exit a function and return a value to the caller.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """
