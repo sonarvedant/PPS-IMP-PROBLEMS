@@ -36,6 +36,15 @@ Additional features
         for n in args:
             total += n
         return total
+(similaar to rest parrameter in js)
+
+Lambda or anonymous function - a small, unnamed function that can be defined in a single line of code.
+syntax - lambda arguments: expression
+eg. add = lambda a, b: a + b
+    print(add(5, 3))
+    instead of doing 
+    eg. def add(a, b):
+              return a + b
 
 
 
