@@ -1,4 +1,4 @@
-"""
+'''
 FUNCTIONS AND STRINGS
 
 FUNCTIONS:- function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function.
@@ -46,10 +46,53 @@ eg. add = lambda a, b: a + b
     eg. def add(a, b):
               return a + b
 
+Documentation string(docstring)
+is similar to comments but for functions. 
+they arre multiline stringsused to explain function
+syntax - def function_name(parameters):
+               """docstring"""
+            body
+we can access docstring using __doc__ attribute of the function.
+it should start with a capital letter and end with a period.
+
+
+
+Good programming practices for functions:
+1] Use meaningful names for functions and parameters.                      
+2] instead of using 8 spaces for indentation, use 4 spaces.
+3] make use of proper comments 
+4] use od documentation strings
+5] use spaces around operators 
+6] function should be in lowercase and words should be separated by underscores.
+
+--------------------------------------------------------------------------------------------
+Introduction to Modules
+A module is a file containing Python definitions and statements. The file name is the module name with the suffix .py added.
+Modules are used to organize code into manageable sections and to promote code reusability.
+from ... import ... - used to import specific functions or variables from a module.
+import ... - used to import the entire module.
+eg. from math import math
+
+creating a module 
+1] create a file with .py extension and write the code in it.
+2] save the file with a name that is a valid Python identifier.
+3] import the module in another Python file using the import statement.
+eg.
+# my_module.py
+def greet(name):
+    print("Hello", name)
+
+# main.py
+from my_module import greet
+    greet("Alice")
+
+The dir() function
 
 
 
 
+'''
 
 
-"""
+
+
