@@ -33,9 +33,9 @@ Additional features
 4] Variable-length arguments - arguments that can take a variable number of values.
        eg. def sum(*args):
         total = 0
-
-
-
+        for n in args:
+            total += n
+        return total
 
 
 
