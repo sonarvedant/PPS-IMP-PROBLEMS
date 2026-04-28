@@ -19,10 +19,20 @@ Variable Scope:- the region of the program where a variable is defined and can b
 
 return statement - a return statement is used to exit a function and return a value to the caller.
 
-
-
-
-
+Additional features 
+1] Required arguments - arguments that are required to be passed to a function.
+       eg. def add(a, b):
+        return a + b
+2] Default arguments - arguments that have a default value and are optional to be passed to a function.
+       eg. def greet(name="Guest"):
+        print("Hello", name)
+3] Keyword arguments - arguments that are passed to a function by specifying the parameter name.
+       eg. def greet(name, age):
+        print("Hello", name, "you are", age, "years old")
+        greet(age=25, name="Alice")
+4] Variable-length arguments - arguments that can take a variable number of values.
+       eg. def sum(*args):
+        total = 0
 
 
 
