@@ -1,0 +1,1 @@
+#program to check give num is armstrong number or not
