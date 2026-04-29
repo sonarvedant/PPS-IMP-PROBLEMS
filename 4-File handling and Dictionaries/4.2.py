@@ -1,0 +1,1 @@
+#program to display values of file object attributes

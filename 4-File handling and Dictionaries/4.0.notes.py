@@ -36,6 +36,37 @@ t - open file in text mode
 b - open files in binary mode
 + open file for updation (reading and writing)
 
+File object attribute  : on opening file object is returned . 
+it is possible to get different types of information related to file object usin gattributes with the file object
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dictionaries
+operations
+1] adding items to dictionaries
+
+
+
+
+
 
 
 """
