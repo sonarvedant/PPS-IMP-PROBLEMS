@@ -62,6 +62,9 @@ it is possible to get different types of information related to file object usin
 Dictionaries
 operations
 1] adding items to dictionaries
+2] remove items
+3] updation of value in dictionaries
+4] checking lenght
 
 
 
