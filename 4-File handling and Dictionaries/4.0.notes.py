@@ -13,11 +13,28 @@ the text ascii file is simple file containign collection of characters that are 
 operations performed - opening file , reading file ,writing file , appending data to file 
 can be oped using texxt editor like notepad
 cannot be corrupted easily
+In text file each line contains any nuumber of characters include one or more characters including a special characters that denotes the end of file 
+eacch line of text have macimum 255 characters
+when data is written to file each newline character is converted into carriage return/line feed character, 
+similarly when data is read from file each carriage return feed character is conveted to newline character.
+
 
 2] Binary file: data present in encoded form 
 image , audio , text data can be present 
 even if single bit is changed file is corrupted 
 cant read using text editor like notepad
+
+OPENING file
+in python there is built in function open() to open file 
+syntax: file_object = open(file_name,mode)
+we can open it in text or binary mode , there are various mode to open file
+r - open file for reading
+w - open file for writing 
+x - open file for creation only
+a - open file for aappending mode
+t - open file in text mode
+b - open files in binary mode
++ open file for updation (reading and writing)
 
 
 
