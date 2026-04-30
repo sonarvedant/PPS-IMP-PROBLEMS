@@ -2,4 +2,6 @@
 with open("demo.text", "r") as f:
     data = f.read()
     print(data)
-    print(type(data))
+
+
+# as good programmer we close the file but in with it is not necessary 
