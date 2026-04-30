@@ -1,5 +1,5 @@
 #program to find a specific word in the file
-word = learning
+word = "learning"
 with open("practice.txt", "r") as f:
     data = f.read()
     if word in data:
