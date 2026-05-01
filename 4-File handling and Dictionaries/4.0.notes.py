@@ -57,9 +57,7 @@ list() method:
 this method os used to display contents of file as a list
 
 
-
-
-
+Writting file
 
 
 
