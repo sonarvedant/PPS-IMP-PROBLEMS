@@ -27,6 +27,7 @@ cant read using text editor like notepad
 OPENING file
 in python there is built in function open() to open file 
 syntax: file_object = open(file_name,mode)
+another syntax to open file(open with): with open("file_name","mode" as f
 we can open it in text or binary mode , there are various mode to open file
 r - open file for reading
 w - open file for writing 
