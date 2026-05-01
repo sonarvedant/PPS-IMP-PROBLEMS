@@ -62,6 +62,10 @@ for writing we must open it in writing mode using 'w' or'a' or 'x
 syntax: file.write(contents)
 
 writelines method():
+used add lines in file 
+
+Appending a file : 
+for appending the files wee must open with 'a' or 'ab' mode
     
 
 
