@@ -39,7 +39,11 @@ b - open files in binary mode
 File object attribute  : on opening file object is returned . 
 it is possible to get different types of information related to file object usin gattributes with the file object
 
+CLosing file syntax : file_name.close()
 
+Reading the file 
+if we diretly write f.read() then it will display output with /n character 
+if we write print(f.read()) then it will display output as it is 
 
 
 
