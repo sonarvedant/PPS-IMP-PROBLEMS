@@ -8,7 +8,7 @@ i like java programing language
 """
 #replace java with python and save the file
 
-with open("practice.txt", "r") as f:
+with open("4-File handling and Dictionaries\practice.txt", "r") as f:
     data = f.read()
     print("databefore editing is :", data)
 

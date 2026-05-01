@@ -45,8 +45,15 @@ Reading the file
 if we diretly write f.read() then it will display output with /n character 
 if we write print(f.read()) then it will display output as it is 
 
+readline method():
+this method allowss us to read a single line from file . 
+when file reaches to the end it returns an empty sring
 
+readlines method():
+this method read and used to print all the lines files
 
+list() method:
+this method os used to display contents of file as a list
 
 
 
