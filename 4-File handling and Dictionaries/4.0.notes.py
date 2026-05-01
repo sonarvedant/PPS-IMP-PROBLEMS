@@ -58,6 +58,11 @@ this method os used to display contents of file as a list
 
 
 Writting file
+for writing we must open it in writing mode using 'w' or'a' or 'x
+syntax: file.write(contents)
+
+writelines method():
+    
 
 
 

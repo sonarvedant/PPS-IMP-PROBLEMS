@@ -1,8 +1,5 @@
-#program to find a specific word in the file
-word = "learning"
-with open("4-File handling and Dictionaries\practice.txt", "r") as f:
-    data = f.read()
-    if word in data:
-        print("word is present in file")
-    else:
-        print("word is not present in file")
+#program to write multiple lines to a text file using writelines() method.
+f = open("4-File handling and Dictionaries\practice.txt","wt")
+lines= ["practice make man perfect\n programing is easy"]
+f.writelines(lines)
+f.close
