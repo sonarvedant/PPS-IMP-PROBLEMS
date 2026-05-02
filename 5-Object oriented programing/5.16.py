@@ -12,3 +12,7 @@ print(s1.name, s1.marks,s1.college)
 
 s2 = student("arjun", 69)
 print(s2.name,s2.marks,s2.college)  
+
+
+# as once class is defined we can create and use as object many times
+# so professional s make a class in file and then import whereever required and create object 

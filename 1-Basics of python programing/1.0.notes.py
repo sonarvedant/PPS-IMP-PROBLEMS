@@ -128,7 +128,7 @@ variables and identifiers
 
 
 
-
+formatted string syntax: f"{} {} "
 
 
 

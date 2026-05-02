@@ -1,6 +1,6 @@
 """
 OOP - Object oriented programing
-Inheritance : 
+Inheritance : (like heridity genetics) means taking properties from parent 
 Polymorphism : 
 Abstraction : 
 Encapsulation : 
@@ -16,6 +16,10 @@ two types
 1] default constructure
 def __init__(self,fulname):
         print("   ")
+
+self constructure is sililar to context/this in other programming language
+        
+
 2]  constructure
 
 
