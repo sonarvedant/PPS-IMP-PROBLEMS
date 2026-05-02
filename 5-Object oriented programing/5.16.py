@@ -11,4 +11,4 @@ s1 = student("karan",92)
 print(s1.name, s1.marks,s1.college)
 
 s2 = student("arjun", 69)
-print(s2.name,s2.marks,s2.college)
+print(s2.name,s2.marks,s2.college)  
