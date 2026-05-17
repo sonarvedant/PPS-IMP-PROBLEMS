@@ -1,94 +1,71 @@
 """
 File handling and Dictionaries
-FILE : file is named location on disc to store information 
-file have persistent data structure (memory stored permanantly in secondary memory) 
-every file is located by its path . and character \ used in pathname is called delimiter.
 
-absolute path : it is the complete path from the root directory to the file.
-relative path : it is the path from the current working directory to the file.
+FILE
+- A file is a named location on disk used to store information.
+- Files provide persistent storage in secondary memory.
+- Each file is identified by its path. The backslash (\) is the path delimiter on Windows.
 
-Types of file 
-1] Text file : data present in form of characters 
-the text ascii file is simple file containign collection of characters that are readable to human 
-operations performed - opening file , reading file ,writing file , appending data to file 
-can be oped using texxt editor like notepad
-cannot be corrupted easily
-In text file each line contains any nuumber of characters include one or more characters including a special characters that denotes the end of file 
-eacch line of text have macimum 255 characters
-when data is written to file each newline character is converted into carriage return/line feed character, 
-similarly when data is read from file each carriage return feed character is conveted to newline character.
+Paths
+- Absolute path: the complete path from the root directory to the file.
+- Relative path: the path from the current working directory to the file.
 
+Types of Files
+1) Text file
+- Data is stored as readable characters.
+- A text/ASCII file contains characters that are easy to read and edit.
+- Common file operations: open, read, write, append.
+- Text files can be opened with a text editor like Notepad.
+- Text files are less likely to become corrupted from small changes.
+- Each line may contain characters and ends with a newline marker.
+- When writing, newline characters are translated to carriage return/line feed (CR/LF) on Windows.
+- When reading, CR/LF sequences are converted back to newline characters.
 
-2] Binary file: data present in encoded form 
-image , audio , text data can be present 
-even if single bit is changed file is corrupted 
-cant read using text editor like notepad
+2) Binary file
+- Data is stored in encoded (binary) form.
+- Images, audio, and other non-text data use binary files.
+- If a single bit is corrupted, the file may become unreadable.
+- Binary files cannot be reliably opened with a plain text editor.
 
-OPENING file
-in python there is built in function open() to open file 
-syntax: file_object = open(file_name,mode)
-another syntax to open file(open with): with open("file_name","mode" as f
-we can open it in text or binary mode , there are various mode to open file
-r - open file for reading
-w - open file for writing 
-x - open file for creation only
-a - open file for aappending mode
-t - open file in text mode
-b - open files in binary mode
-+ open file for updation (reading and writing)
+Opening Files in Python
+- Use the built-in function open() to open a file.
+- Syntax: file_object = open(file_name, mode)
+- Recommended syntax: with open(file_name, mode) as f:
+- File modes:
+  - r: open for reading
+  - w: open for writing (truncate existing file)
+  - x: open for exclusive creation, fails if file exists
+  - a: open for appending
+  - t: open in text mode
+  - b: open in binary mode
+  - +: open for both reading and writing
 
-File object attribute  : on opening file object is returned . 
-it is possible to get different types of information related to file object usin gattributes with the file object
+File Object Attributes
+- Opening a file returns a file object.
+- The file object provides methods and attributes for file operations.
+- Always close files when done: file_object.close()
 
-CLosing file syntax : file_name.close()
+Reading Files
+- f.read(): reads the entire file contents.
+- print(f.read()): prints the text with newline formatting applied.
+- f.readline(): reads a single line from the file.
+  - Returns an empty string when the end of file is reached.
+- f.readlines(): reads all lines into a list.
+- list(f): returns the file contents as a list of lines.
 
-Reading the file 
-if we diretly write f.read() then it will display output with /n character 
-if we write print(f.read()) then it will display output as it is 
+Writing Files
+- Open the file in write mode using 'w', 'a', or 'x'.
+- Syntax: file.write(contents)
+- f.writelines(lines): writes a list of strings to the file.
 
-readline method():
-this method allowss us to read a single line from file . 
-when file reaches to the end it returns an empty sring
-
-readlines method():
-this method read and used to print all the lines files
-
-list() method:
-this method os used to display contents of file as a list
-
-
-Writting file
-for writing we must open it in writing mode using 'w' or'a' or 'x
-syntax: file.write(contents)
-
-writelines method():
-used add lines in file 
-
-Appending a file : 
-for appending the files wee must open with 'a' or 'ab' mode
-    
-
-
-
-
-
-
-
-
-
-
+Appending Files
+- Use append mode: 'a' or 'ab'.
+- This preserves existing file contents and adds new data at the end.
 
 Dictionaries
-operations
-1] adding items to dictionaries
-2] remove items
-3] updation of value in dictionaries
-4] checking lenght
-
-
-
-
-
-
-
+Operations
+1) Adding items to dictionaries
+2) Removing items from dictionaries
+3) Updating dictionary values
+4) Checking dictionary length
 """
